@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\inpainter">
+      <UniqueIdentifier>{9579491e-20af-42f3-a1de-1afccdd9c92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\detector">
+      <UniqueIdentifier>{29cac2bb-9396-4d88-846e-2722cdfd3e40}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YaeRemover.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="detector\InRange.h">
+      <Filter>Header Files\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="detector\OldYaeAlgorithm.h">
+      <Filter>Header Files\detector</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\Divergence.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\Gradient.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\MeanSquareError.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\MergeResult.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\PeakSignalToNoiseRatio.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\RecursiveInpainter.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\RootMeanSquareError.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\Signum.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\SplitBergmanSolver.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\uSolver.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+    <ClInclude Include="inpainter\wSolver.h">
+      <Filter>Header Files\inpainter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="YaeRemover.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
